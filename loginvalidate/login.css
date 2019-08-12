@@ -1,0 +1,44 @@
+        html,
+        body,
+        .view {
+            height: 100%;
+        }
+        
+        .view {
+            background: url("images/bgpic1.jpg")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+         
+         .card {
+             margin: 5rem 0;
+             margin-left: 50%;
+             background-color: rgba(0, 0, 0, 0.15);
+             padding: 30px;
+         }
+         .card-link {
+             font-size: 19px;
+         }
+         
+         .card-link.active {
+             padding-bottom: 3px;
+             border-bottom: 2px solid #0d47a1;
+         }
+         h5 {
+             margin-top: 1rem;
+         }
+         input[type="text"]:focus:not([readonly]) {
+            border-color:#0d47a1;
+            box-shadow:0 1px 0 0 #0d47a1;
+            color:#fff;
+        }
+
+        input[type="text"]:not([readonly])+label {
+            color:#fff;
+        }
+
+        input[type="text"]:focus:not([readonly])+label {
+            color:#fff;
+        }
